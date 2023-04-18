@@ -373,6 +373,7 @@
 "Assets/Scripts/Flash.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Monster.cs"
+"Assets/Scripts/Player.cs"
 -langversion:9.0
 
 /deterministic
