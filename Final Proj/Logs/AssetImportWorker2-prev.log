@@ -15,7 +15,7 @@ C:/repo/XR-Project/Final Proj
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51427
+56754
 Successfully changed project path to: C:/repo/XR-Project/Final Proj
 C:/repo/XR-Project/Final Proj
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/repo/XR-Project/Final Proj
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21360] Host "[IP] 169.229.103.106 [Port] 0 [Flags] 2 [Guid] 1828686369 [EditorId] 1828686369 [Version] 1048832 [Id] WindowsEditor(7,N4PFAG00B395157) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24236] Host "[IP] 169.229.103.106 [Port] 0 [Flags] 2 [Guid] 2029287193 [EditorId] 2029287193 [Version] 1048832 [Id] WindowsEditor(7,N4PFAG00B395157) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21360] Host "[IP] 169.229.103.106 [Port] 0 [Flags] 2 [Guid] 1828686369 [EditorId] 1828686369 [Version] 1048832 [Id] WindowsEditor(7,N4PFAG00B395157) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24236] Host "[IP] 169.229.103.106 [Port] 0 [Flags] 2 [Guid] 2029287193 [EditorId] 2029287193 [Version] 1048832 [Id] WindowsEditor(7,N4PFAG00B395157) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 82.78 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
+Refreshing native plugins compatible for Editor in 87.83 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/repo/XR-Project/Final Proj/Assets
@@ -67,51 +67,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003527 seconds.
+Registered in 0.004004 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.20 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 75.89 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.477 seconds
+- Completed reload, in  0.567 seconds
 Domain Reload Profiling:
-	ReloadAssembly (477ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (347ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (219ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
+				RefreshPlugins (76ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007852 seconds.
+Registered in 0.007732 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\repo\XR-Project\Final Proj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\repo\XR-Project\Final Proj\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.58 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 73.72 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\repo\XR-Project\Final Proj\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
@@ -129,43 +129,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.993 seconds
+- Completed reload, in  1.038 seconds
 Domain Reload Profiling:
-	ReloadAssembly (994ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (818ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (456ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (449ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 54 unused Assets / (115.1 KB). Loaded Objects now: 4686.
 Memory consumption went from 160.9 MB to 160.8 MB.
-Total: 3.487400 ms (FindLiveObjects: 0.322500 ms CreateObjectMapping: 0.271300 ms MarkObjects: 2.766100 ms  DeleteObjects: 0.126600 ms)
+Total: 4.086800 ms (FindLiveObjects: 0.464800 ms CreateObjectMapping: 0.175400 ms MarkObjects: 3.315800 ms  DeleteObjects: 0.129800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,3 +177,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5027.265683 seconds.
+  path: Assets/Models/DesertEnvironment/Environment/Ground/Ground.mat
+  artifactKey: Guid(3d799a37e933a9b4b92692fd55087b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DesertEnvironment/Environment/Ground/Ground.mat using Guid(3d799a37e933a9b4b92692fd55087b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5952c34b57ad7f657d59d7c1fb002970') in 0.195790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/DesertEnvironment/Props/Barrier/Materials/Barrier.mat
+  artifactKey: Guid(cc14152c5efd699429012257a63c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DesertEnvironment/Props/Barrier/Materials/Barrier.mat using Guid(cc14152c5efd699429012257a63c3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16314a16542637ea25af86d3f64040d') in 0.031337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/DesertEnvironment/Props/House/Materials/House.mat
+  artifactKey: Guid(4f27934731e3cc244bb02c47b7c79c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DesertEnvironment/Props/House/Materials/House.mat using Guid(4f27934731e3cc244bb02c47b7c79c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0bb92a78487fd42dc34bed7e393ce5') in 0.051617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/DesertEnvironment/Props/Barrel/Materials/BarrelBlue.mat
+  artifactKey: Guid(e4395df9157021d43ab0241fd8722415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DesertEnvironment/Props/Barrel/Materials/BarrelBlue.mat using Guid(e4395df9157021d43ab0241fd8722415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99557b19d9af57d85780de40a449693b') in 0.039304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/ParticleSystems/ParticleGlow.mat
+  artifactKey: Guid(c10b1630d5621ec48a17223c3c102023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ParticleSystems/ParticleGlow.mat using Guid(c10b1630d5621ec48a17223c3c102023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c318390594a7dff6621759d8b538c0') in 0.018969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/DesertEnvironment/Props/Grenade/Materials/Grenade.mat
+  artifactKey: Guid(ff97be777e0354f4e8bb601da6e1106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DesertEnvironment/Props/Grenade/Materials/Grenade.mat using Guid(ff97be777e0354f4e8bb601da6e1106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d0c04c9a7417c70672bba62ba1efcf') in 0.038004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/DesertEnvironment/Props/Genorators/Materials/GenoratorRed.mat
+  artifactKey: Guid(b904eecea66543745a477a59c8871947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DesertEnvironment/Props/Genorators/Materials/GenoratorRed.mat using Guid(b904eecea66543745a477a59c8871947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8153f348c3432338b568ebe5343734d9') in 0.040340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/DesertEnvironment/Props/Barrel/Materials/BarrelRed.mat
+  artifactKey: Guid(a24c8bdcc0811c54282c8f61925507a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DesertEnvironment/Props/Barrel/Materials/BarrelRed.mat using Guid(a24c8bdcc0811c54282c8f61925507a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52d2c9980e1d769ee5dca5da6d8ca8c') in 0.033052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/ParticleSystems/ParticleDuststorm.mat
+  artifactKey: Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ParticleSystems/ParticleDuststorm.mat using Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fbc06372e55f10822e4bbbbbdb9acc') in 0.019926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/skyMaterial.mat
+  artifactKey: Guid(cb20c710b0721ef4d88cabbec2aa4da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/skyMaterial.mat using Guid(cb20c710b0721ef4d88cabbec2aa4da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d831fc1f0e7c9cbfb14fa5624ad4343') in 0.094886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/DesertEnvironment/Environment/Rocks/Materials/Rocks.mat
+  artifactKey: Guid(0e196fd37c0bb9a44b9700b3f6e8cdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/DesertEnvironment/Environment/Rocks/Materials/Rocks.mat using Guid(0e196fd37c0bb9a44b9700b3f6e8cdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0ca9f48624385dbf856008e6c747c2') in 0.037507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/bark01_bottom.mat
+  artifactKey: Guid(7e56b6e37c078ed47b6d0e9d9249ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/bark01_bottom.mat using Guid(7e56b6e37c078ed47b6d0e9d9249ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1553742d32864d5bfd910121a189fa64') in 0.082928 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

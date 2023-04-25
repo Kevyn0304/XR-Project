@@ -370,6 +370,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/BranchManager.cs"
+"Assets/Hand.cs"
 "Assets/Scripts/Flash.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Monster.cs"
