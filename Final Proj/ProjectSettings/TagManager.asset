@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pickup
+  - Text
+  - Branch
+  - Rock
+  - Mushroom
   layers:
   - Default
   - TransparentFX
